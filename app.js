@@ -15,4 +15,4 @@ wsServer.on('request', function(request) {
     connection.on('close', function(reasonCode, description) {
         console.log('Client has disconnected.');
     });
-});// socket connected
+});// socket connected on port
