@@ -1,5 +1,6 @@
 const http = require('http');
 const WebSocketServer = require('websocket').server;
+//creating a server
 const server = http.createServer();
 server.listen(9898);
 const wsServer = new WebSocketServer({
