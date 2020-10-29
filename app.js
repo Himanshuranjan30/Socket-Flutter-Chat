@@ -17,5 +17,3 @@ wsServer.on('request', function(request) {
     });
 });
 
-//8080 is the port number.
-// connected
