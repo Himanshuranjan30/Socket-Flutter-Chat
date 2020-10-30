@@ -17,4 +17,3 @@ wsServer.on('request', function(request) {
     });
 });
 
-//socket connected
